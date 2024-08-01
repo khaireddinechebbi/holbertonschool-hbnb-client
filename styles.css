@@ -16,17 +16,84 @@ body {
 }
 
 header {
-    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f88f0e;
     color: #fff;
     padding: 1rem;
+    width: 100%;
+    position: relative;
 }
 
-nav a {
+header .a {
     color: #fff;
     text-decoration: none;
     margin-left: 1rem;
 }
-
 main {
     padding: 2rem;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: #f88f0e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#filter {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#places-list, .reviews {
+    margin: 20px 0;
+}
+
+.login-button {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.place-card {
+    background-color: #fff;
+    padding: 50px;
+    width: 300px;
+    height: inherit;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px 2px #b0acac;
+}
+
+.place-image {
+    width: 200px;
+}
+
+.details-button {
+    padding: 8px;
+    color: #f4f4f4;
+    background-color: #f88f0e;
+    border-radius: 7%;
 }
