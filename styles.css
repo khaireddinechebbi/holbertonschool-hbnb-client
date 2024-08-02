@@ -58,7 +58,7 @@ footer {
     padding: 10px 20px;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
@@ -83,22 +83,23 @@ footer {
     width: 300px;
     height: inherit;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px 2px #b0acac;
     margin: 20px 0;
+    border: 1px solid #ddd;
 }
 
 .place-image {
     width: 200px;
     height: 120px;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .details-button {
     padding: 8px;
     color: #f4f4f4;
     background-color: #f88f0e;
-    border-radius: 7%;
+    border-radius: 10px;
 }
 .place-content {
     display: flex;
@@ -110,7 +111,7 @@ footer {
     background-color: #fff;  
     width: 600px;
     padding: 50px;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px 2px #b0acac;
     text-align: center;
 }
@@ -119,16 +120,17 @@ footer {
     background-color: #fff;  
     width: 600px;
     padding: 20px;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px 2px #b0acac;
     text-align: left;
     margin: 20px 0;
+    border: 1px solid #ddd;
     
 }
 
 .image-place {
     width: 600px;
-    border-radius: 5%;
+    border-radius: 10px;
     margin: 10px;
 }
 
@@ -136,6 +138,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px 0;
+    border-radius: 10px;
 }
 
 .Rating-text {
@@ -152,6 +155,10 @@ footer {
     color: #111;
     margin-right: 5px;
     
+}
+
+#stars {
+    border-radius: 10px;
 }
 
 h1 {
@@ -174,6 +181,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
+}
+
+#place {
+    border-radius: 10px;
 }
 
 #add-review {
@@ -181,6 +193,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .review-texts {
@@ -188,4 +201,53 @@ p {
     flex-direction: column;
     padding: 10px 0;
     width: 600px;
+}
+#review-text {
+    border-radius: 10px;
+}
+
+.submit-review {
+    width: 600px;
+    background-color: #f88f0e;
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.add-review {
+    background-color: #f88f0e;
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#password {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
 }

@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Review</title>
+    <link rel="icon" type="image/png" href="icon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+        <a href="index.html" alt="home">Home</a>
+    </header>
     <main>
         <form id="review-form">
             <h2>Add a Review</h2>
-            <label for="place">Place:</label>
-            <input type="text" id="place" name="place" readonly>
-            
-            <label for="review">Review:</label>
-            <textarea id="review" name="review" required></textarea>
-            
-            <button type="submit">Submit</button>
+            <div class="review">
+                <label for="place"><strong>Place:</strong></label>
+                <input type="text" id="place" name="place" readonly>
+            </div>
+            <div class="review">
+                <label for="review"><strong>Review:</strong></label>
+                <textarea id="reviews" name="review" required></textarea>
+            </div>
+            <div class="review">
+                <label for="stars" class="bold">Rating:</label>
+                <select id="stars">
+                    <option value="1">1 star</option>
+                    <option value="2">2 stars</option>
+                    <option value="3">3 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="5">5 stars</option>
+                </select>
+            </div>
+            <button type="submit" class="add-review">Submit</button>
         </form>
     </main>
+    <footer>
+        &copy; 2023 holberton hbnb client. All rights reserved.
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
