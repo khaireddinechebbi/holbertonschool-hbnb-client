@@ -184,6 +184,14 @@ p {
     border-radius: 10px;
 }
 
+#review {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
 #place {
     border-radius: 10px;
 }
