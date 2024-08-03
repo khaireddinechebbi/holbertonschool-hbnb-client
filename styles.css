@@ -197,11 +197,9 @@ p {
 }
 
 #add-review {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    width: 600px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .review-texts {
